@@ -143,3 +143,25 @@ img{
     border: none;
     margin-bottom: 0;
 }
+/* ------------------------------------- */
+/* Botton */
+/* ------------------------------------- */
+.boton{
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-family: var(--fuenteHeading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.boton--primario{
+    background-color: var(--negro);
+}
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+    }
+}
