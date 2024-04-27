@@ -87,3 +87,32 @@ h4{
     color: var(--blanco);
     margin-top: 5rem;
 }
+/* ------------------------------------- */
+/* NAV */
+/* ------------------------------------- */
+.logo{
+    color: var(--blanco);
+}
+.logo__nombre{
+    font-weight: 400;
+}
+.logo__bold{
+    font-weight: 700;
+}
+.navegacion__enlace{
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.8rem;
+    display: block;
+}
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
