@@ -6,6 +6,7 @@
     --primario: #784D3c;
     --blanco: #ffffff;
     --negro: #000000;
+    --gris: #e1e1e1;
 }
 html{
     box-sizing: border-box;
@@ -123,4 +124,22 @@ img{
         display: flex;
         gap: 2rem;
     }
+}
+/* ------------------------------------- */
+/* MAIN */
+/* ------------------------------------- */
+@media (min-width: 768px) {
+    .contenedor-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+    border: none;
+    margin-bottom: 0;
 }
