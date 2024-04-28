@@ -165,3 +165,29 @@ img{
         display: inline-block;
     }
 }
+/* ------------------------------------- */
+/* ASIDE - SIDEBAR */
+/* ------------------------------------- */
+.boton--secundario{
+    background-color: var(--primario);
+}
+.cursos{
+    list-style: none;
+}
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2px;
+}
+.widget-curso:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.widget-curso__label{
+    font-weight: 700
+}
+.widget-curso__info{
+    font-weight: 400;
+}
+.widget-curso__label, .widget-curso__info{
+    font-size: 2rem;
+}
