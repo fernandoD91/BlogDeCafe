@@ -115,6 +115,9 @@ img{
     font-size: 1.8rem;
     display: block;
 }
+.barra{
+    padding-top: 3rem;
+}
 @media (min-width: 768px) {
     .barra{
         display: flex;
@@ -191,4 +194,12 @@ img{
 }
 .widget-curso__label, .widget-curso__info{
     font-size: 2rem;
+}
+/* ------------------------------------- */
+/* FOOTER  video 09*/
+/* ------------------------------------- */
+footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
