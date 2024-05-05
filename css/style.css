@@ -195,10 +195,32 @@ img{
     font-size: 2rem;
 }
 /* ------------------------------------- */
-/* FOOTER  video 09*/
+/* FOOTER*/
 /* ------------------------------------- */
 footer{
     background-color: var(--negro);
     padding-bottom: 3rem;
     margin-top: 4rem;
+}
+/* ------------------------------------- */
+/* FOOTER*/
+/* ------------------------------------- */
+
+@media (min-width: 768px) {
+    /* forma de hacerlo con flex */
+  /* .sobre-nosotros{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sobre-nosotros__imagen,
+  .sobre-nosotros__texto{
+    flex: 0 0 calc(50% - 1rem);
+  } */
+
+/* forma de hacerlo con grid */
+  .sobre-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+  }
 }
