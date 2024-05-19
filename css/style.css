@@ -244,10 +244,17 @@ footer {
         column-gap: 2rem;
     }
 }
-.curso{
+.curso {
     padding: 2rem 0;
     border-bottom: 2px solid var(--gris);
 }
-.curso:last-of-type{
+.curso:last-of-type {
     border: none;
+}
+
+/*----- Entrada blog -----*/
+@media (min-width: 768px) {
+  .contenedor-entrada{
+    max-width: 60%;
+  }
 }
