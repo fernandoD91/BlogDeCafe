@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Café</title>
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -49,7 +57,7 @@
         </div>
         <form action="" class="formulario">
             <div class="campo">
-                <label class="campo__label" for="nombre" >Nombre</label>
+                <label class="campo__label" for="nombre">Nombre</label>
                 <input class="campo_field" type="text" id="nombre" placeholder="Tu nombre">
             </div>
 
@@ -64,7 +72,7 @@
             </div>
 
             <div>
-                <input  type="submit" value="Enviar" class="boton boton--primario">
+                <input type="submit" value="Enviar" class="boton boton--primario">
             </div>
         </form>
     </main>
