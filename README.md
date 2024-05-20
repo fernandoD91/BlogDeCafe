@@ -16,3 +16,5 @@
 
 - Uso de 'preload' para elementos que se requieren una carga rapida
     - ejemplo: `<link rel="preload" href="css/normalize.css" as="style">`
+
+- Uso de 'prefetch' para cargar la pagina 'CURSOS' mas rapida ya que es la mas importante y solicitada.
