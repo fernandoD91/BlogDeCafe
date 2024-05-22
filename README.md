@@ -18,3 +18,5 @@
     - ejemplo: `<link rel="preload" href="css/normalize.css" as="style">`
 
 - Uso de 'prefetch' para cargar la pagina 'CURSOS' mas rapida ya que es la mas importante y solicitada.
+
+- Uso de la etiqueta <picture> para la posibilidad de usar la imagen webp para reducir el tamaño de descarga y tambien agregamos la posibilidad de usar imagenes en format 'jpg' en caso de que el navegador NO soporte webp
