@@ -19,7 +19,10 @@
 
 - Uso de 'prefetch' para cargar la pagina 'CURSOS' mas rapida ya que es la mas importante y solicitada.
 
-- Uso de la etiqueta <picture> para la posibilidad de usar la imagen webp para reducir el tamaño de descarga y tambien agregamos la posibilidad de usar imagenes en format 'jpg' en caso de que el navegador NO soporte webp
+- Uso de la etiqueta `<picture>` para la posibilidad de usar la imagen webp para reducir el tamaño de descarga y tambien agregamos la posibilidad de usar imagenes en format 'jpg' en caso de que el navegador NO soporte webp
 
 - Uso de 'Modernizer para poder usar imagen en formato 'webp', en caso de no soportar usara 'jpg'
-    - [text](https://modernizr.com/download?webp-setclasses&q=webp)
+    - [modernizr](https://modernizr.com/download?webp-setclasses&q=webp)
+
+- Uso de la etiqueta meta 'description' para un mejor SEO
+    - `<meta name="description" content="Página web de blog de café">`
