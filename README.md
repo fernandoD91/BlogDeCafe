@@ -1,5 +1,9 @@
 # Blog De Café
 
+Link: [Blog de cafe](https://blogdecafeposta.netlify.app/)
+
+Link del repo: [Repositorio en GitHub](https://github.com/fernandoD91/BlogDeCafe)
+    
 ## Características Iniciales
 
 - Fuentes:
@@ -26,3 +30,8 @@
 
 - Uso de la etiqueta meta 'description' para un mejor SEO
     - `<meta name="description" content="Página web de blog de café">`
+
+
+- Auditoria y deployment creada con LightHouse
+
+![Auditoria](img/auditoria.png)
